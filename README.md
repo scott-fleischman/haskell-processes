@@ -1,6 +1,8 @@
 # Processes
 Start multiple processes and interleave log output. This code is a basic setup for this kind of thing. The processes that are started are also Haskell programs in the same project, started with `stack exec`.
 
+[![Build Status](https://travis-ci.org/scott-fleischman/haskell-processes.svg?branch=master)](https://travis-ci.org/scott-fleischman/haskell-processes)
+
 ## Example run:
 ```
 $ stack exec process -- Aconitum Daisy Floss Alchemilla
