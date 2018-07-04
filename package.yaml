@@ -19,8 +19,7 @@ ghc-options:
 executables:
   process:
     main: Process.hs
-    other-modules:
-    - Log
+    other-modules: []
   repeat:
     main: Repeat.hs
     other-modules:
