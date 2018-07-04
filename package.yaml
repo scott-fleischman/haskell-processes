@@ -1,0 +1,27 @@
+name: processes
+version: 0.1
+
+dependencies:
+- async
+- base
+- bytestring
+- fast-logger
+- formatting
+- text
+- typed-process
+
+ghc-options:
+- -Wall
+- -threaded
+- -rtsopts
+- -O2
+
+executables:
+  process:
+    main: Process.hs
+    other-modules:
+    - Log
+  repeat:
+    main: Repeat.hs
+    other-modules:
+    - Log
